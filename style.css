@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navigation {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+}
+
+.navigation .container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.navigation .logo {
+    height: 48px;
+}
+
+.navigation-item {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    transition: 0.2s;
+}
+
+.navigation-item:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.search-bar {
+    border: 1px solid goldenrod;
+}
+
+.search-bar .search-input {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+.search-bar .search-input:focus {
+    outline: none;
+}
+
+.search-bar .search-button {
+    height: 36px;
+    width: 36px;
+    background-color: goldenrod;
+    color: #ffffff;
+    border: none;
+}
+
+.posts {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+}
+
+.posts img {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.posts .post h4 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.post {
+    width: 25%;
+}
+
+.featured-posts {
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time span:nth-child(1) {
+    color: goldenrod;
+    font-size: 42px;
+}
+
+.time span:nth-child(2) {
+    text-transform: capitalize;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 50%;
+}
+
+.info h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+}
+
+.info .line {
+    width: 150px;
+    border: 3px solid goldenrod;
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-introduction {
+    max-width: 300px;
+}
+
+.footer .footer-important {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all-posts {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.all-posts .post {
+    width: calc(100% / 3 - 16px);
+}
+
+.post-title {
+    text-align: center;
+}
+
+.post-time {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.post-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.post-question {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.main {
+    display: flex;
+}
+
+.featured-side {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.featured-side img {
+    width: 86px;
+}
+
+.menu-side {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.categories-item {
+    margin-bottom: 16px;
+}
+
+.social-media i {
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 8px;
+}
+
+.social-media .fa-facebook {
+    background-color: #3b5998;
+}
+
+.social-media .fa-twitter {
+    background-color: #1da1f2;
+}
+
+.social-media .fa-whatsapp {
+    background-color: #25d366;
+}
+
+.social-media .fa-linkedin {
+    background-color: #0077b5;
+}
+
+.social-media .fa-reddit {
+    background-color: #ff4500;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.post-title {
+    margin: 20px;
+}
+
+.photo {
+    object-fit: contain;
+    width: 600px
+}
+
+.intro-container {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://cdn-chhej.nitrocdn.com/cKgtSOFemlZrxMofJINtXMEnGivTlpOA/assets/static/optimized/rev-f7d35ca/wp-content/uploads/2022/03/mid-autumn-festival-lanterns-hong-kong-1.jpg);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.widget {
+    width: 50%;
+}
+
+.widget img {
+    width: 100%;
+    transition: .5s;
+}
+
+.widget img:hover {
+    transform: translateY(-16px)
+}
+
+.featured-heading {
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.all-heading {
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
