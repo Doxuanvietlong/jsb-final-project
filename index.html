@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Trung thu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="container">
+            <div>
+                <a href="/">
+                    <img class="logo"
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRISGBgYGBgYGBgYGBgYGBgYGRgZGRoYGhgcIS4lHB8rIRgaJjgnKy8xNTU1GiU7QDs0QC40NTEBDAwMEA8QHRISHzEpJCQ0Pz83ODQ0ND80ODE0Pz00NDE0MT8/NDQ/NzFANjE0ND82NDQ0PzExNTE0NDo/NTQxNP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEBAAIDAQAAAAAAAAAAAAAAAQIFAwQGB//EAEMQAAIBAwIDBQUEBgYLAAAAAAECAAMEERIhBTFRBiJBYXETFDKBkSNCobEHUmJywfAVNZKz0eEkM0NEdIKFlKK04v/EABoBAQADAQEBAAAAAAAAAAAAAAADBAUBAgb/xAAnEQEAAgEEAQMDBQAAAAAAAAAAAQIDBBEhMRIFQXETUYEiMmGRof/aAAwDAQACEQMRAD8A+ykyAS4lgIiICJMywJiWIgIiQwITKBAEsBERATEzKIEAliICQmDJiAliWAiIgQyATKICIiAiIgIiICYkwTAEABMoiAiJiTAyiQSwERJASTjeqo5sB6nE6tXidJfifHyJH1AkdslK9zEfl2Imeod+Jr14tRP+0X55H5zuU6qsMqwI6ggj8IrkpbqYn8k1mO4csSEyAyRxlERAREhMATAMgEygIiICJMywEREBIZYgYgTKIgIiYmAJlAgCWAkiYVKgUEnkJyZiI3kSrUCjJOBNVccQZvh7o/H6+E4bmuXOTy8B0nDMXUa61pmtOI/2VimOI5kPU84MRM9K6tazVuXdPly+k6HeptsSrdQcZ+fjNzOKtSDDB+R6Tm3vD3XJPU9OSw48chau4/WA3H7wHP5T0dNwQCCCDuCOU8FUplW0nn+c2HB+JGk2lj3Cd/2T1H8Zo6TX2i0UyzvH3+3y85tPG3lR7GJAZZtqKEyCMTKAiIgJiTBMAQAEyiICIiBBLEQERJmBZMSxAREkBNTxStkhRyG59fD+fObQmeeqtqYt1J/ymf6hk8ccVj3S4q7zuxAmWiYicrViQAfD+fXpMasV2ndPLiiInl0iJkF9P7Sj8zERM9DrXFDJU+OpR8iwH8ZqSMfQfjPUW1vkg6lIBB5jIwc8gZpr2yZSSSm5JHfUADoMnJxJL4LeEW2SYskb+Mtx2dvNSaCd1xj908vpuPpN3PIcDYrWUZXBBBwynmMjkeoE9dNrQ5JviiJ7jhU1FYrfj3ZRES6hJDLEDECZREBETEmBlEwiBnETEmAJlAgCWAiIgSSDKBAwfkfQzzonpTPNsuCR0JH0mT6nH7Z+U2H3SIkmUnJYiAiIgc1u+CD0Ix8yAfwzNFcVO+2k4ySSB1zv/PnNwpwQehzNE7ZJPUkzt8k+MVSYa8zLscNP2qfvr+c9zPFcHp6qyDodX0BP+E9rNb0uJ+nM/wAodXP64+GLsACTyAyZSZ0uNVtFvWf9WlUb6KTO8BNRUBLEQERMSYAmUCAJYCIiBi0oEsQERITAs6txcBWpqSAXYgDO50ozHHXkJ1eJcYpUELvrwOiOcnwHLH1M+bcb7U+1uaVVda6CdA0ucYUnJ7u5J5+UD67E89wTtVRuNgtRXAyV0Ow9QwX88TfK2RkZ+YI/AwMppeJUtLZ8G3+fj/PnN1OvdUA648eYPQyrq8P1ccxHcdPdLeMtDLMmUgkEYI5zGfPzv1K0REEzgREjHG5gcN5U0oep2H8ZqJz3VbW2fAcv8ZbO1NVgo+Z8FHUzxtN7RWvMys12pXeW57MW3xVCP2R+ZP5D6zfPTBGCAR0IB/OY29FUUKowAMCcs+n0+H6WOK/2zMt/O02eZ47wyjUp1kNlTyaDlWNOjs2lgCDnIIm5o8It0+G2oL+7TRfyE7dSmGBB8QQfQzkk7wxVQNgAB5TKeXu+2NBL5LIrVLMpJZadQ4YldC4C5II1EsO6MDJ549ODAsgEsQEREBERAREQJJEoEDEoCMEAg8wdxPD8e7MarqgaS6UdmD45IQpJI6ZHIdRPdzienkqf1Tn/AMSP4wOO2tEpqERVUDwA/E9T5mdgmCZIFBlklgdS7tA46Ecj/AzUVaLKcMMfkfQz0ExdQRggEecpajR0y8xxL3W814edMk3FThyHllfTl+M6tbhLnlVA/wCTJ+ur+EzbaHNXqN/iU0ZKz3OzXu4UZJxNZc3RfYbL06+s3Q7OknLVifRd/qSZ3bbglJd9Oo9WOfw5TlfT89u4iPmUsZcdee5ecsOHPVPdGF8WPL5dTPWWNktJcKPUnmT1M7IGNhGJqabR0w89z91fLmtfjqGUsRLiEiJiTA672qF1qlBrVXRWxuFcqWAPmUX6TsgQBLAREkCxMTKIFiIgJCIBlgQCWIgJCZZCIEmp7ScZWzt2ruO6r0lbfGFeqiM3mQrE48dOJuJ5ntpapcLb2rjKXFcow/ZWhWqZ9QUBHmBA2vGuKLbW9W4fdadNnwD8WB3VB6k4A9Z2bSuHRHGMOquPRgD/ABnzLh7Pe2h4dVBL2aV0ucjZmpIUtc53IYsKgPWh5zl41WFTs5SY4JFKzXPjlatJG/Ij6wPp+ZMTx3a+2RrrhqNTRlNeopUqCpUUHIUgjGMgHHlOLitmtpe2TWo9mLiq9KtQTu0qiezZ/aezHdDLpzqAB33ge4nHUcKCSQAASSeQA3Jmn4/2ntrMYrVDrIyKaAvUI66F3A25nA85p+IceW9sEahTqD31/d0R8I7JqcVTlSQv2dOoQc9IG77LcdS9tluEBAYuCp5qVYrg+eAD85tyZ4bsrUajf3lpUpCmtcLeUkyHXDYp1twMbuAceZnN+jmkv9HsGUY9rchgQPCq4wR5AAb9IHsxLmfPDwig3BBWahSaovC8o7KrMhFuzgqxGVOolsjfPpLxHhFBeDPVShSWo1gpZ0QKzH2atliB3jkZydxv1MD6FmJ43tJSU8MpAKCNVhpAA8bigNvUEj5zq9oOJ1LfiCXAP+jUlpW9wPBRcu5Wod8AKy0t+eHPWB7smFE8PYcSqPxVKhb7CvbV0t1xzFGrTzVz46ssQRzXQZ1je3FrXubtNda194dbmiN2o6ETFekPEY+JfLPoH0IGWeY7H1abteVaJRke5VlZcYZTa2x2x+0W26kz08CSGDKBAASxEBERAgEsRASZgmSBlERAToXXDkqVKdVi+qiWZMNhQWUqxI8cqSN+WdsScR4tQoYFWqqs2dK7tUbHPRTUFmx5AzS3PbyxpkCq9ekGOA1W2uKa59XQdIG+pWFNWquqANWKmow5sVUIufRQBNQOyNv7r7l9r7vkEIXbIw+sAP8AEBqwefh02m24bxGjXTXQq06ictSMrDPQ45HynkuKfpNs7es1B6V4XVioK0hhiDjuZYFhnYHG8D0fEeB067Umd6uqgS1NlbSQxGCx0gAnG2Dt5TRdpqy2hpGkGqXty4trdqhZ/ZhiNdQJ8KqowW0gZwudhtwn9JdAf7jxT/tv/qeRr9tadbiqXLWt81K1osiUxSzUWtUyCzJqwoKkjc/dG0D6xw3hyUAQoJZu9UqNu9R8AF3b7x29AMAYAAnVs+z1On7vhqhNuhVNwF7ww7FFAUsd98bZOMZmn4H2+oXdf3dLe8R9DPipTRBpXbO753JAHmZtuH9oFrKr06NyUZzT1lU0hlco2Rq1ABgRnHhA573glKrXpXDaxVohgjKxXAb4gRyYHoczhHZuiDU0+1RazFqtNajLTdm+JtIPdLeOkjPjOxX4mFdqaUqtV1AZ1TSNIbOnLOyjJ0nYEnbJxkZNxTu02WhcN7RNYUKoKjCnD6mAVu9yz4HpA5rzh9OrRagwIpuhpsq93uFdJUY5DG20xtuHU0oC3xrphPZ6X72aeNOlieY07b85r7XtItRWZLe5KrUam7BUwro2lwRrzhTnJAxtO0eLp7z7rpqe09l7bkNHs9WjOrPPUMY5/LeBwWnZyjTWmgNYpRIalTeo7pTK/BgE5YL90MTpwCMEDHNW4HRcXCuGYXIxVVjsRoCALjdcKANumee8vDOMJXetTVXV6DhKisFBDMNQxgnIIwQeRnKnElNdrcK5ZESozYGhVcuFyc5ySjbYzt03gcVbgdFqlvV0kNbB1o6SVCq6hWXA2I0qBgzmsOHLRNQqX+1qGo+TnLkAEjpsq7Dbblziw4pSrPWRGy1BxTcdGKq+3l3seqkeE4rri6U61K3ZaheuHKEBSpFMBnyc7YDDnz8MwOThXCaNuHWigRXdqjKvw62CgkD7o7o2G02ExBmUCSxEBITBkgM+kkumIGUhMGY4gWZREBOhxe99jRZwAWyqopOA1R2CU1J8AXZRnznfnnO21f2dulU/DSubWo56ItxT1E+QG/ygbLhvDlognOuo2DUqsO/UbzPgo8FGyjYTuVKYYFWAYHYggEEdCDznJLA+f8b7AaH954XU90uBuUXahVH6jJyX6FfLxHL2Z7U077XY39ulO6TIqUKigpUwN2phs523xvscgkbz3c8l247HrfIHpt7K7pd6hXUlWBG4VmXfTnkeanceIIdzhh92erbtUY0adNa1JnJYpTy4emXO7BCoIJOdLgfdydZ+ja2Y0at44Ie9rvcYPNaZJFJfTTkjyYTzti97er7tcoadesq0K+MA07Sg7+1rHGwas59mANjoLDYT6hQpKiqiqFVQFVRyAAwAPIAQOL3NTVFY51hDTHQKzBmx6lV/sieV7B07j3dCtSh7L3i51Iab69PvNXOKntNOc/sctvOeycZGMkeYxkee80fDuza0FFOnc3Qphy+gtTIZmfW2W0a8FiSQGHMwOpx7h1zTqm8smVqmlVr2znCXCpkrpb7lQBiAeRyM+e74NxBbihTroCFqorgHmNQzg+Y5fKcFXhOXdlublBUILqjU9OQqplSVLJlVHwkddjvO9aWqUqa0qahURQqqOQUDAAzA872C/wBVc/8AH3n9+0i/11/04f8Asmbfg/B0tg4RqhFSo9VgxU99zqYjAGMnfHKT+h096971VPaeyFHGRo9mH16dOn9Yk5zn5QNLxPFrxGjcZ00rpDbViSAoqoGqUHbzIFRPmJ2bO69jbVr11JasTWC7hipAS2pYPwsUFMFf13brNrxnhVK6pGjWTUhZGK9Sjhx8srg9QSPGOJcNWvoDO4CVEqBV0gM9Ngyasg5AYA46gdIHjrAvZ3Vsz0KtNbhPdq7uaOl7rU9WnUxTdt3d6w3xu6zc8b/rLh37t5/d05t+M8LS5pGlU1AFkYMh0urIwdWVvAgqN51r/s+tWpRrNWrrUoBxTdSgI9oAHJXTpYkADcY25QN0BLOlZWZp6i1WrUZiO8+jIAGAAEVVA5nlzJndgJCZZjiAlAgCWAiIgImsvOIGnVSnpU6yNyxBAJ08gD4kdBvjmQDs4CIkJgCZ1OI2SV6T0agylRGRhy7rDBwfA7852gJlA+dcE7TNw91sOJMV0923uyPs61MbKHb7rAYBJ6bnxb6BRqqyhkZWU7hlIII6gjYzg4hw+lXQ061JKiHmrqGGfA4PI+c8m36M7NSTb1b21yckW9wyg/2g0D3E0txxoMxpWwFaqDhtJ+ypHrWqDZTuO4Msc8sZI11t2It1GKtW9uR0uLmpUQ/vICEPoRiektrZKaKlNERFGFVFCqB0CjYCB0+FcNFEMWcvVqHVVqEYLtjAwPuqo2VRyA8TknZxEBETEmBcyzjpMGAIOQdwZyQEREBIRLECASxEBEhMkDKIiAiIgIiIGi4sx94twOWST8fUDPd2+vLfwJm9mi4scXFDGMlt9lJwOWM7j4jy57+OAd7AhMgjEygIiICYkwTAEABMoiAiJiYAmdC+4rRojNSrSX9lnVWJ8AATufKd1kBBBAIPMHcEeYmhv+x9jVzmytQxz3hSRWz4bgb/ADga/sDxtXs6CVqiLXCsHpuwSoMOwB0NvuMHOJ7EGeB7Fdl6FS0o17y2o1q7qWqPVRGb4mC5yMHChR8p7i3t0pqERFRRyVVCqPQDaBzzHMSgQAliICQmCZjAsoEASwERITAEwJAJlAREQNPxGogr0slNe4QFnDd7Y91diNvHoZuJoeLVft7dP2sn0LKBnqMj0B0+QO+gIiICQyxAxAmURARExJgZRJLAREQOKjSCqFUYAGAJnMpMQAEsRARITAMBAEsQERECEyAS4lgIiICJMxA0/Fa7CtQUFgrOdRDKFPIaSOZ8Prjx23M1N/Zu1ai4Awh7x1MGxv8Ad5c8b88Ej120BMSYJgCBRLEQERMSYAmUCAJYCIiBIBklAgWIiAkMEyQJMgIlgIiQmAzLMQJlAREQExJlJkAgTETOICSWIGImURAREQIZiv8AP4xEDOIiAkMRAizKIgIiIGJlERAsREBMTEQKJYiAkliBj/nMoiAiIgf/2Q=="
+                        alt="">
+                </a>
+            </div>
+            <div>
+                <a href="" class="navigation-item">Tradition</a>
+                <a href="" class="navigation-item">Food</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-button"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="intro-container">
+        <div class="intro container">
+            <div class="widget">
+                <img 
+                src="/images/png-transparent-pattern-mid-autumn-festival-festive-lantern-material-lantern-color-material-removebg-preview.png"
+                    alt="">
+            </div>
+            <div class="info">
+                <h1> Trung thu 2023</h1>
+                <div class="line"></div>
+                <p> Trung thu diễn ra vào rằm tháng 8 (15 âm lịch).
+                    Đây cũng là thời gian để gia đình tụ hợp bên nhau với,
+                    những miếng bánh Trung Thu, Còn các bạn nhỏ thì
+                    đi rước đèn.
+                </p>
+                <h2> Ngày trung thu năm nay</h2>
+                <div class="countdown">
+                    <div class="time">
+                        <span>29</span>
+                        <span>Days</span>
+                    </div>
+                    <span>:</span>
+                    <div class="time">
+                        <span>13</span>
+                        <span>hours</span>
+                    </div>
+                    <span>:</span>
+                    <div class="time">
+                        <span>12</span>
+                        <span>minutes</span>
+                    </div>
+                    <span>:</span>
+                    <div class="time">
+                        <span>29</span>
+                        <span>seconds</span>
+                    </div>
+                </div>
+                <h1 class="date"> SEPTEMBER 29</h1>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="featured-heading">Bài viết nổi bật</h3>
+        <div class="posts">
+            <div class="post">
+                <img src="/images/download.jpg" alt="">
+                <h4> <a href="post-1.html">Tại sao con thỏ lại nằm trên cung trăng?</a></h4>
+                <p> Con thỏ ở trên mặt trang có câu chuyện liên quan tớ con thỏ ngọc, Nhiều người nói rằng để...</p>
+            </div>
+            <div class="post">
+                <img src="/images/banhtrungthu.jpg" alt="">
+                <h4> <a href="post-2.html"> Món ăn truyền thống</a> </h4>
+                <p> Những món ăn truyền thống vào dịp Trung Thu</p>
+            </div>
+            <div class="post">
+                <img src="/images/trungthu.jpg" alt="">
+                <h4> <a href="post-3.html">Người Việt tổ chúc trung thu như thế nào?</a></h4>
+                <p> Chúng ta hãy cùng xem người mình tổ chức trung thu như thế nào nhé!</p>
+            </div>
+            <div class="post">
+                <img src="/images/images.jpg" alt="">
+                <h4> <a href="post-4.html">Giới thiệu về Trung Thu</a></h4>
+                <p> Trung thu được diên ra vào ngày nào? Quốc gia nào tổ chức Tết Trung Thu </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="all-heading"> Tất cả bài viết </h3>
+        <div class="posts all-posts">
+            <div class="post">
+                <img src="/images/images.jpg">
+                <h4> <a href="post-4.html">Giới thiệu về Trung Thu</a></h4>
+                <p> Trung thu được diên ra vào ngày nào? Quốc gia nào tổ chức Tết Trung Thu </p>
+            </div>
+            <div class="post">
+                <img src="/images/banhtrungthu.jpg">
+                <h4><a href="post-2.html">Món ăn truyền thống</a> </h4>
+                <p> Những món ăn truyền thống hay có ở dịp Trung Thu</p>
+            </div>
+            <div class="post">
+                <img src="/images/trungthu.jpg">
+                <h4> <a href="post-3.html">Người Việt tổ chúc trung thu như thế nào?</a></h4>
+                <p> Chúng ta hãy cùng xem người mình tổ chức trung thu như thế nào nhé!</p>
+            </div>
+            <div class="post">
+                <img src="/images/download (2).jpg">
+                <h4><a href="post-5.html">Các loại bánh Trung Thu</a> </h4>
+                <p> Những loại bánh Trung Thu phổ biến nhất hiện nay</p>
+            </div>
+            <div class="post">
+                <img src="/images/download (1).jpg">
+                <h4><a href="post-6.html">Nên đi nơi nào vào dịp Trung Thu?</a> </h4>
+                <p> Những điểm đến nổi bật nhất nên đến vào dịp Trung Thu</p>
+            </div>
+            <div class="post">
+                <img src="images/download.jpg">
+                <h4><a href="post-1.html">Tại sao con thỏ lại nằm trên cung trăng?</a></h4>
+                <p>Con thỏ ở trên mặt trang có câu chuyện liên quan tớ con thỏ ngọc, Nhiều người nói rằng để...</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-introduction">
+            <p> Đêm trung thu là một buổi tối để ta quây cùng bên nhau với những miếng bánh trung thu, trẻ em thì đi
+                rước đèn
+            </p>
+        </div>
+        <div class="footer-important">
+            <h4> Quan trọng</h4>
+            <a> Disclaimer </a>
+            <a> Quyền bảo mật</a>
+            <a> Liên hệ </a>
+        </div>
+        <div class="footer-column">
+            <img src="https://cdn-chhej.nitrocdn.com/cKgtSOFemlZrxMofJINtXMEnGivTlpOA/assets/static/optimized/rev-f7d35ca/Badges/d24853dbe59ffa0cf9dd7aa07cd020b2.dmca-badge-w200-5x1-06.png"
+                alt="">
+        </div>
+    </div>
+</body>
+
+</html>
